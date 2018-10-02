@@ -7,4 +7,3 @@ def reverse_each_word(sentence_string)
   new_string
 end
 
-n.split.collect {|word|word.reverse}.join (" ")
