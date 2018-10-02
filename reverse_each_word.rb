@@ -8,3 +8,10 @@ end
   
   
 def reverse_each_word(sentence_string)
+  
+  
+  sentence_string.each do |word|
+    
+  s = ".sdrawkcab si gnirts sihT"
+	s.reverse                            # => "This string is backwards."
+	s      
