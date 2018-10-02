@@ -11,7 +11,7 @@ def reverse_each_word(sentence_string)
   
   
   sentence_string.each do |word|
-    
+    sentence_string << word.reverse
   s = ".sdrawkcab si gnirts sihT"
 	s.reverse                            # => "This string is backwards."
 	s      
