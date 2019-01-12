@@ -1,15 +1,13 @@
 def reverse_each_word(string)
   
+  narr = []
+  
   arr = string.split
   
-  nstring 
+  nstring = ""
   
-  arr.each do |word|
-    
-    nstring << word.reverse
-    
-  end
+  narr = arr.collect {|word| word.reverse}
   
-  nstring
+  narr.join(" ")
   
 end
