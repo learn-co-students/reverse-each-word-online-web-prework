@@ -1,4 +1,4 @@
-=begin
+=begin ##.each##
 def reverse_each_word(sentence)
   new_array = []
   array = sentence.split
@@ -9,6 +9,8 @@ def reverse_each_word(sentence)
   new_array.join(" ")
 end
 =end
+
+##.collect/map##
 def reverse_each_word(sentence)
   array = sentence.split
   array.collect do |word|
